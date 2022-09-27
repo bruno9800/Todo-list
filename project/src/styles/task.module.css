@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-500);
+    width: 100%;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.container + .container {
+    margin-top: 0.75rem;
+}
+
+.container label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.checkbox{
+    width: 17.45px;
+    height: 17.45px;
+    /* background: var(--purple-dark); */
+    background: transparent;
+    border-radius: 100%;
+    border: 2px solid var(--purple-dark);
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icon {
+    width: 7.31px;
+    height: 4.69px;
+}
+
+.icon:checked {
+    padding: 2rem;
+}
+
+.delete{
+    background: transparent;
+    border: none;
+}
+
+.trash {
+    color: var(--gray-300);
+    transition: color .1s linear;
+}
+
+.trash:hover {
+    color: var(--danger);
+}

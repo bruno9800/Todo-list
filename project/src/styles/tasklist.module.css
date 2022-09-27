@@ -1,0 +1,32 @@
+.container {
+    margin-top: -1.678rem;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.container header strong {
+    font-weight: 700;
+    font-size: var(--text-base);
+}
+
+.container header  span {
+    background: var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    color: var(--gray-200);
+    border-radius: 999px;
+    font-size: var(--text-sm);
+    margin-left: 0.5rem;
+}
+
+.tasksCreated {
+    color: var(--blue);
+}
+
+.tasksDone {
+    color: var(--purple);
+}

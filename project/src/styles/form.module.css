@@ -1,0 +1,30 @@
+.containerForm {
+     display: flex;
+     justify-content: center;
+     gap: 0.5rem;
+     margin-top: -1.687rem;
+}
+
+.containerForm input {
+    width: 100%;
+    border-radius: 8px;
+    background: var(--gray-500);
+    color: var(--gray-300);
+    font-size: var(--text-lg);
+    padding: 1rem;
+    outline: none;
+    border: none;
+}
+
+.containerForm button {
+    background: var(--blue-dark);
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: var(--text-base);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
