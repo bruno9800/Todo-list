@@ -9,3 +9,6 @@ Desafio da trilha Ignite da rocketseat
     - uuidV4
     - Radix-UI
     - Typescript
+    
+## Objetivo
+Praticar e aprimorar os conhecimentos de controle de estado no react
